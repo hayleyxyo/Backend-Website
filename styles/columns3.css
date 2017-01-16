@@ -1,0 +1,45 @@
+/*	Three Column Layout
+	See http://www.alistapart.com/articles/holygrail/
+*/
+
+/*	Sizes
+
+	navigation		160
+	content
+	photo			200
+*/
+
+#main {
+	position: relative;
+	padding: 0px 216px 0px 160px;	/* 0 photoWidth+2*photoPadding 0 navigationWidth */
+}
+#navigation, #content, #photo {
+	position: relative;
+	float: left;
+}
+#navigation {
+	width: 160px;					/* navigationWidth */
+	padding: 0px 0px 0px 0px;
+	margin-left: -100%;
+	margin-left: -160px;			/* navigationWidth */
+
+	height: 400px;
+}
+#content {
+	width: 100%;
+	padding: 0px 0px;				/* 0 contentPadding */
+	top: 0px;
+	min-height: 400px;
+	min-height: 100%;
+}
+#photo {
+	width: 176px;					/* photoWidth-2*contentPadding */
+	padding: 0px 8px;				/* photoPadding */
+	margin-right: -240px;			/* -photoWidth-2*contentPadding-2*photoPadding */
+
+	top: 0px;
+	min-height: 400px;
+}
+#contenttext {
+	padding: 0px 12px;
+}

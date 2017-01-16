@@ -1,0 +1,25 @@
+
+
+#main {
+	position: relative;
+	padding: 0px 0px 0px 160px;
+}
+#navigation, #content, #photo {
+	position: relative;
+	float: left;
+}
+#navigation {
+	width: 160px;
+	padding: 0px 0px 0px 0px;
+	margin-left: -160px;
+	min-height: 400px;
+}
+#content {
+	width: 100%;
+	padding: 0px 0px;
+	top: 0px;
+	min-height: 400px;
+}
+#contenttext {
+	padding: 0px 12px;
+}

@@ -1,0 +1,9 @@
+USE australia;
+DROP TABLE IF EXISTS images;
+CREATE TABLE images (
+	id INT UNSIGNED AUTO_INCREMENT,
+	src VARCHAR(48) NOT NULL,
+	title VARCHAR(60) NOT NULL,
+	description varchar(255) DEFAULT NULL,
+	PRIMARY KEY (id)
+) ENGINE=INNODB;

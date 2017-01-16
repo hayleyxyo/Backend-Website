@@ -1,0 +1,22 @@
+	#paging {
+		background-color: #FCDFB1;
+		width: 164px;
+		height: 24px;
+	}
+	#paging span, #paging a {
+		font-size: 32px;
+		font-weight: bold;
+		width: 32px;
+		display: block;
+		float: left;
+		text-align: center;
+		margin: -10px 4px -6px 4px;
+	}
+	#paging a:hover {
+		color: #4A2A15;
+		text-decoration: none;
+		background-color: white;
+	}
+	#paging span {
+		color: #666;
+	}

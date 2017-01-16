@@ -1,0 +1,36 @@
+#	.htaccess
+
+#	PHP 5.3 Strict Date & Time
+	php_value date.timezone Australia/Melbourne
+
+#	SMTP
+	php_value	SMTP "localhost"
+
+#	Uploads
+	php_value	post_max_size 8M
+	php_value	upload_max_filesize 2M
+
+#	Legacy
+	php_flag	register_globals Off
+	php_flag	magic_quotes_gpc Off
+
+#	Sessions
+	php_value	session.gc_probability 1
+	php_value	session.gc_divisor 1
+	php_value	session.gc_maxlifetime 600
+
+#	Errors
+	php_value	error_reporting -1
+	php_flag	display_errors On
+	php_flag	log_errors On
+
+#	Misc
+	php_value	max_execution_time 30
+
+#	Log Mail
+#	http://blog.rimuhosting.com/2012/09/20/finding-spam-sending-scripts-on-your-server/
+#	php_value mail.log /var/log/phpmail.log
+	php_flag mail.add_x_header Off
+
+#	Turn off buffering
+	php_value output_buffering off

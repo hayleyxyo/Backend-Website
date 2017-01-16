@@ -1,0 +1,24 @@
+/*	Forms	*/
+	.error {
+		font-style: italic;
+		color: #600;
+		font-weight: bold;
+	}
+	form.wide {
+		width: 32em;
+	}
+	form.wide input[type="text"], form.wide input[type="password"], form.wide textarea, input.wide, textarea.wide {
+		width: 100%;
+	}
+	legend {
+		font-weight: bold;
+		color: #A43E16;
+	}
+	label {
+		font-weight: bold;
+		color: #4A2A15;
+	}
+	input[type="text"] {
+		font-family: monospace;
+	}
+

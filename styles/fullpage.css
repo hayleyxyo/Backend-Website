@@ -1,0 +1,21 @@
+ 	html, body {
+		height: 100%;
+	}
+
+	#body {
+		overflow: auto;
+		padding-bottom: 24px;
+		min-height: 99%;
+		height: auto !important;
+		height: 99%;
+		position: relative;
+	}
+
+	#footer {
+		position: relative;
+		height: 24px;
+		margin-top: -24px;
+		height: 24px;
+		position: absolute;
+		bottom: 0px;
+	}
